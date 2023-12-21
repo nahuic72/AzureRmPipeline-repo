@@ -8,7 +8,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'armEjemplo'
+    azureResourceManagerConnection: 'armOtro'
     subscriptionId: 'e3999679-7c37-4f4a-85ab-7fd916a65a47'
     action: 'Create or Update Resource Group'
     resourceGroupName: 'josecitogrupoarm'
